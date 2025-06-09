@@ -1,0 +1,249 @@
+{
+  "header": {
+    "home": "Home",
+    "problem": "The Problem",
+    "platform": "The Platform",
+    "interdisciplinarity": "Interdisciplinarity",
+    "report": "Report",
+    "resources": "Resources"
+  },
+  "hero": {
+    "slogan": "Technology, Law and Language in the fight against slave labor.",
+    "intro": "Alerta Justiça is an interdisciplinary initiative that aims to combat labor analogous to slavery in Brazil, promoting information, safe reporting, and access to justice for vulnerable populations.",
+    "imageCaption": "The fight against contemporary slave labor is a challenge that requires joint action.",
+    "reportButton": "Report",
+    "learnMoreButton": "Learn More"
+  },
+  "problem": {
+    "title": "The Problem of Labor Analogous to Slavery",
+    "tabs": {
+      "legislation": "Brazilian Legislation",
+      "data": "Alarming Data",
+      "sdg": "Relation with SDGs"
+    },
+    "legislation": {
+      "title": "What is labor analogous to slavery?",
+      "paragraph1": "According to Brazilian legislation, specifically article 149 of the Penal Code (amended by Law No. 10,803/2003), the crime of reduction to a condition analogous to that of a slave is defined as: \"Reducing someone to a condition analogous to that of a slave, either by subjecting them to forced labor or exhausting workdays, or by subjecting them to degrading working conditions, or by restricting, by any means, their movement due to debt contracted with the employer or agent.\"",
+      "paragraph2": "The penalty is imprisonment from two to eight years, and a fine, in addition to the penalty corresponding to violence. The same article also establishes that anyone who restricts the use of any means of transportation by the worker, in order to retain them at the workplace; or maintains ostensive surveillance at the workplace or seizes documents or personal belongings of the worker, in order to retain them at the workplace, incurs the same penalties.",
+      "paragraph3": "The law also provides for an increase in penalty when the crime is committed against a child or adolescent, or due to prejudice of race, color, ethnicity, religion, or origin. This legal definition is fundamental for combating this serious human rights violation in Brazil."
+    },
+    "data": {
+      "title": "The reality of slave labor in Brazil",
+      "paragraph1": "According to official data from the Ministry of Labor and Employment (MTE), in 2024, 1,035 specific inspection actions were carried out to combat labor analogous to slavery, resulting in the rescue of 2,004 workers subjected to degrading working conditions. These operations ensured the payment of more than R$7 million in labor and severance pay to the victims.",
+      "paragraph2": "Since 1995, when Brazil officially recognized the existence of contemporary forms of slavery, the Labor Inspection has rescued 65,598 workers in 8,483 inspection actions. Between 2003 and 2024, more than R$155 million in labor and severance pay were paid to victims.",
+      "paragraph3": "The states with the highest number of rescued workers in 2024 were Minas Gerais (500), São Paulo (467), Bahia (198), Goiás (155), and Pernambuco (137). The economic areas with the highest incidence include building construction, coffee cultivation, onion cultivation, land preparation service, and horticulture.",
+      "paragraph4": "An alarming fact is the significant growth in the number of workers rescued in urban areas, which represented 30% of the total workers in conditions analogous to slavery identified in 2024, demonstrating that the problem is not restricted only to rural areas.",
+      "chartCaption1": "Source: Ministry of Economy/G1",
+      "chartCaption2": "Source: Repórter Brasil"
+    },
+    "sdg": {
+      "title": "Relation with the UN Sustainable Development Goals",
+      "sdg8": {
+        "title": "SDG 8: Decent Work and Economic Growth",
+        "paragraph1": "The fight against labor analogous to slavery is directly related to the UN's SDG 8, which aims to \"promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all.\"",
+        "paragraph2": "Specifically, target 8.7 establishes: \"Take immediate and effective measures to eradicate forced labor, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labor, including recruitment and use of child soldiers, and by 2025 end child labor in all its forms.\""
+      },
+      "sdg16": {
+        "title": "SDG 16: Peace, Justice and Strong Institutions",
+        "paragraph1": "SDG 16 seeks to \"promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels.\"",
+        "paragraph2": "Combating contemporary slave labor requires strong and effective institutions, access to justice for victims, and secure reporting mechanisms. The eradication of this practice directly contributes to more just and peaceful societies, where fundamental human rights are respected and institutions work to protect the most vulnerable."
+      },
+      "chartCaption": "Source: Brasil de Fato"
+    }
+  },
+  "platform": {
+    "title": "The Alerta Justiça Platform",
+    "intro": "Alerta Justiça is more than a website - it's a comprehensive platform that combines technology, legal knowledge, and linguistic accessibility to combat labor analogous to slavery in Brazil.",
+    "tabs": {
+      "concept": "The Concept",
+      "reporting": "Anonymous Reporting",
+      "education": "Educational Resources",
+      "data": "Data Dashboard"
+    },
+    "concept": {
+      "title": "An Interdisciplinary Approach",
+      "paragraph1": "The Alerta Justiça platform was conceived as a bridge between vulnerable workers, legal institutions, and society. By combining expertise from Law, Linguistics, and Engineering, we've created a tool that addresses the complex challenges of modern slavery.",
+      "paragraph2": "Our platform operates on three fundamental pillars:",
+      "pillar1": "Information and Education: Making legal knowledge accessible to all, regardless of literacy level or formal education.",
+      "pillar2": "Safe Reporting: Providing secure channels for denouncing situations of labor exploitation without risk to the victims.",
+      "pillar3": "Data Transparency: Collecting, analyzing, and publishing data on slave labor to inform public policies and raise awareness.",
+      "paragraph3": "By integrating these three dimensions, Alerta Justiça aims to be a catalyst for systemic change in how Brazil addresses and combats contemporary forms of slavery."
+    },
+    "reporting": {
+      "title": "Anonymous and Secure Reporting System",
+      "paragraph1": "Our reporting system was designed with the safety and protection of whistleblowers as the top priority. We understand that fear of retaliation is one of the main barriers preventing victims and witnesses from reporting cases of slave labor.",
+      "features": "Key features of our reporting system:",
+      "feature1": "Complete anonymity: No personal identification is required to submit a report.",
+      "feature2": "End-to-end encryption: All communications are protected using advanced encryption protocols.",
+      "feature3": "Secure data handling: Reports are processed following strict security protocols.",
+      "feature4": "Multiple reporting channels: Web form, mobile app, and SMS options for different contexts and needs.",
+      "paragraph2": "Once a report is submitted, it is reviewed by our specialized team and forwarded to the appropriate authorities, such as the Labor Inspection, Federal Prosecution Service, or Federal Police, depending on the nature and urgency of the situation.",
+      "paragraph3": "The platform also allows anonymous follow-up on the status of reports, ensuring transparency throughout the process while maintaining the whistleblower's safety."
+    },
+    "education": {
+      "title": "Educational Resources",
+      "paragraph1": "Education is a powerful tool in preventing and combating slave labor. Our platform offers a comprehensive set of educational resources designed for different audiences and contexts.",
+      "resources": "Available resources include:",
+      "resource1": "Plain language guides explaining labor rights and how to identify situations of exploitation.",
+      "resource2": "Training materials for community leaders, union representatives, and social workers.",
+      "resource3": "Interactive modules on recognizing signs of slave labor and taking appropriate action.",
+      "resource4": "Downloadable posters and leaflets for distribution in vulnerable communities.",
+      "paragraph2": "All educational materials are developed with input from experts in law, education, and linguistics to ensure they are legally accurate, pedagogically effective, and linguistically accessible to diverse audiences, including those with limited literacy.",
+      "paragraph3": "These resources are freely available for download, sharing, and use in educational and community settings."
+    },
+    "data": {
+      "title": "Data Dashboard",
+      "paragraph1": "Understanding the patterns and trends of slave labor is essential for developing effective strategies to combat it. Our data dashboard provides up-to-date, interactive visualizations of key indicators related to slave labor in Brazil.",
+      "features": "The dashboard includes:",
+      "feature1": "Geographic distribution of reported cases and rescues.",
+      "feature2": "Sector analysis showing which industries have the highest incidence of slave labor.",
+      "feature3": "Demographic data on affected populations.",
+      "feature4": "Temporal trends showing progress in combating slave labor over time.",
+      "paragraph2": "All data is sourced from official government records, academic research, and verified reports from partner organizations. The dashboard is updated regularly to reflect the most current information available.",
+      "paragraph3": "Researchers, journalists, policymakers, and the general public can use this tool to better understand the reality of slave labor in Brazil and to inform evidence-based interventions."
+    },
+    "cta": {
+      "title": "Join the Fight Against Slave Labor",
+      "text": "Whether you're a concerned citizen, a potential victim, a witness to exploitation, or a professional working in related fields, the Alerta Justiça platform offers resources and tools to help you take action.",
+      "button": "Explore the Platform"
+    }
+  },
+  "interdisciplinarity": {
+    "title": "Interdisciplinarity: The Power of Integration",
+    "intro": "The fight against labor analogous to slavery requires a multifaceted approach that combines different fields of knowledge. At Alerta Justiça, we integrate Law, Linguistics, and Technology to create effective solutions.",
+    "areas": {
+      "law": {
+        "title": "Law",
+        "description": "Legal expertise is essential to understand the normative framework that defines and combats slave labor. Our legal team analyzes legislation, jurisprudence, and international treaties to ensure that our platform is legally sound and effective.",
+        "contributions": "Contributions from the legal field:",
+        "contribution1": "Precise interpretation of labor and criminal laws related to slave labor",
+        "contribution2": "Development of legal strategies for victim protection and access to justice",
+        "contribution3": "Analysis of legal gaps and proposals for legislative improvements",
+        "contribution4": "Legal guidance for victims and whistleblowers"
+      },
+      "linguistics": {
+        "title": "Linguistics",
+        "description": "Language is a powerful tool for inclusion or exclusion. Our linguistics team works to ensure that legal information is accessible to all, regardless of their educational background or literacy level.",
+        "contributions": "Contributions from the linguistics field:",
+        "contribution1": "Plain language adaptation of legal texts and procedures",
+        "contribution2": "Development of multilingual resources for migrant workers",
+        "contribution3": "Analysis of discourse patterns in victim testimonies to improve reporting systems",
+        "contribution4": "Creation of accessible educational materials for diverse audiences"
+      },
+      "technology": {
+        "title": "Technology",
+        "description": "Technology amplifies our reach and effectiveness. Our tech team develops digital solutions that facilitate reporting, data analysis, and information dissemination.",
+        "contributions": "Contributions from the technology field:",
+        "contribution1": "Secure and anonymous reporting systems",
+        "contribution2": "Data visualization tools for understanding patterns of slave labor",
+        "contribution3": "Mobile applications for field workers and vulnerable populations",
+        "contribution4": "Machine learning algorithms to identify risk areas and potential cases"
+      }
+    },
+    "integration": {
+      "title": "Integration in Practice",
+      "paragraph1": "The true power of our approach lies in the integration of these three fields. When Law, Linguistics, and Technology work together, they create solutions that are legally sound, accessible to all, and technologically efficient.",
+      "examples": "Examples of interdisciplinary integration:",
+      "example1": {
+        "title": "Plain Language Legal Guide",
+        "description": "Our legal team identifies key legal concepts, the linguistics team translates them into plain language, and the technology team creates an interactive digital platform to make this information widely accessible."
+      },
+      "example2": {
+        "title": "Secure Reporting System",
+        "description": "The legal team defines the necessary information for a valid report, the linguistics team ensures the questions are clear and accessible, and the technology team implements a secure and anonymous digital reporting system."
+      },
+      "example3": {
+        "title": "Data-Driven Policy Advocacy",
+        "description": "The technology team collects and analyzes data on slave labor cases, the legal team interprets this data in light of current legislation, and the linguistics team helps communicate findings to policymakers and the public in clear, persuasive language."
+      }
+    },
+    "research": {
+      "title": "Research and Innovation",
+      "paragraph1": "Our interdisciplinary approach is not static—it evolves through continuous research and innovation. We collaborate with universities, research centers, and international organizations to develop new methodologies and tools for combating slave labor.",
+      "paragraph2": "Current research projects include:",
+      "project1": "Development of AI tools to identify potential cases of slave labor in supply chains",
+      "project2": "Linguistic analysis of legal decisions to identify patterns that favor or hinder victim protection",
+      "project3": "Comparative study of international best practices in combating modern slavery",
+      "paragraph3": "Through these research initiatives, we aim to continuously improve our understanding of the problem and our capacity to address it effectively."
+    },
+    "collaboration": {
+      "title": "Join Our Collaborative Network",
+      "paragraph1": "We believe in the power of collaboration. If you are a professional in law, linguistics, technology, or any related field, we invite you to join our network of collaborators.",
+      "paragraph2": "Together, we can develop innovative solutions to combat labor analogous to slavery and promote dignity and justice for all workers.",
+      "button": "Become a Collaborator"
+    }
+  },
+  "report": {
+    "title": "Report Slave Labor",
+    "introduction": "This form allows you to report situations of labor analogous to slavery safely and anonymously. Your report will help authorities identify and combat exploitation, potentially saving lives and restoring dignity to victims.",
+    "privacyNote": "Your privacy and security are our top priorities. All reports are encrypted and handled with strict confidentiality protocols.",
+    "form": {
+      "header": "Anonymous Reporting Form",
+      "securityNotice": "This is a secure form. No IP addresses or personal identifiers are collected.",
+      "reportType": {
+        "label": "Type of Situation",
+        "placeholder": "Select the type of situation you want to report",
+        "options": {
+          "forcedLabor": "Forced Labor",
+          "degradingConditions": "Degrading Working Conditions",
+          "debtBondage": "Debt Bondage",
+          "humanTrafficking": "Human Trafficking for Labor Exploitation",
+          "other": "Other Situation"
+        }
+      },
+      "location": {
+        "label": "Location of the Incident",
+        "state": "State",
+        "statePlaceholder": "Select a state",
+        "city": "City",
+        "cityPlaceholder": "Enter the city name",
+        "address": "Address or Reference",
+        "addressPlaceholder": "Enter address details or reference points",
+        "addressHelp": "Include any details that could help locate the place (e.g., 'farm near the river', 'construction site next to the gas station')"
+      },
+      "description": {
+        "label": "Description of the Situation",
+        "placeholder": "Describe the situation in detail. Include information about working conditions, payment issues, threats, restrictions, or any other relevant details.",
+        "help": "The more details you provide, the better authorities can assess and respond to the situation."
+      },
+      "workersCount": {
+        "label": "Approximate Number of Workers Affected",
+        "placeholder": "Select an approximate range",
+        "moreThan50": "More than 50",
+        "unknown": "Unknown/Not sure"
+      },
+      "contact": {
+        "title": "Contact Information (Optional)",
+        "description": "Providing contact information is completely optional. If you choose to do so, it may help authorities follow up on your report if needed.",
+        "email": "Email",
+        "emailPlaceholder": "Enter your email (optional)",
+        "phone": "Phone",
+        "phonePlaceholder": "Enter your phone number (optional)"
+      },
+      "terms": "I confirm that the information provided is true to the best of my knowledge, and I understand that false reports may hinder the work of authorities.",
+      "submit": "Submit Report Securely",
+      "disclaimer": "After submission, you will receive a unique tracking code to check the status of your report anonymously."
+    },
+    "additionalInfo": {
+      "title": "Other Ways to Report",
+      "description": "If you prefer not to use this online form, there are other secure channels available for reporting situations of labor analogous to slavery:",
+      "phone": {
+        "title": "SIT Hotline",
+        "description": "The Labor Inspection Secretariat (SIT) maintains a dedicated hotline for reporting labor violations:",
+        "number": "100 (toll-free)"
+      },
+      "email": {
+        "title": "Email Reporting",
+        "description": "You can also send reports via email to the Ministry of Labor and Employment:",
+        "address": "denuncias@mte.gov.br"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "Alerta Justiça - All rights reserved"
+  },
+  "languageSwitcher": {
+    "english": "English",
+    "portuguese": "Portuguese"
+  }
+}

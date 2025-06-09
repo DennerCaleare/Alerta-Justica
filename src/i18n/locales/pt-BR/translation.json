@@ -1,0 +1,249 @@
+{
+  "header": {
+    "home": "Início",
+    "problem": "O Problema",
+    "platform": "A Plataforma",
+    "interdisciplinarity": "Interdisciplinaridade",
+    "report": "Denuncie",
+    "resources": "Recursos"
+  },
+  "hero": {
+    "slogan": "Tecnologia, Direito e Linguagem na luta contra o trabalho escravo.",
+    "intro": "Alerta Justiça é uma iniciativa interdisciplinar que visa combater o trabalho análogo à escravidão no Brasil, promovendo informação, denúncia segura e acesso à justiça para as populações vulneráveis.",
+    "imageCaption": "A luta contra o trabalho escravo contemporâneo é um desafio que exige ação conjunta.",
+    "reportButton": "Denunciar",
+    "learnMoreButton": "Saiba Mais"
+  },
+  "problem": {
+    "title": "O Problema do Trabalho Análogo à Escravidão",
+    "tabs": {
+      "legislation": "Legislação Brasileira",
+      "data": "Dados Alarmantes",
+      "sdg": "Relação com ODS"
+    },
+    "legislation": {
+      "title": "O que é trabalho análogo à escravidão?",
+      "paragraph1": "De acordo com a legislação brasileira, especificamente o artigo 149 do Código Penal (alterado pela Lei nº 10.803/2003), configura-se como crime de redução à condição análoga à de escravo: \"Reduzir alguém a condição análoga à de escravo, quer submetendo-o a trabalhos forçados ou a jornada exaustiva, quer sujeitando-o a condições degradantes de trabalho, quer restringindo, por qualquer meio, sua locomoção em razão de dívida contraída com o empregador ou preposto\".",
+      "paragraph2": "A pena prevista é de reclusão de dois a oito anos, e multa, além da pena correspondente à violência. O mesmo artigo também estabelece que incorrem nas mesmas penas quem cerceia o uso de qualquer meio de transporte por parte do trabalhador, com o fim de retê-lo no local de trabalho; ou mantém vigilância ostensiva no local de trabalho ou se apodera de documentos ou objetos pessoais do trabalhador, com o fim de retê-lo no local de trabalho.",
+      "paragraph3": "A lei ainda prevê aumento de pena quando o crime é cometido contra criança ou adolescente, ou por motivo de preconceito de raça, cor, etnia, religião ou origem. Esta definição legal é fundamental para o combate a esta grave violação de direitos humanos no Brasil."
+    },
+    "data": {
+      "title": "A realidade do trabalho escravo no Brasil",
+      "paragraph1": "Segundo dados oficiais do Ministério do Trabalho e Emprego (MTE), em 2024, foram realizadas 1.035 ações fiscais específicas de combate ao trabalho análogo à escravidão, resultando no resgate de 2.004 trabalhadores e trabalhadoras submetidos a condições degradantes de trabalho. Essas operações asseguraram o pagamento de mais de R$ 7 milhões em verbas trabalhistas e rescisórias às vítimas.",
+      "paragraph2": "Desde 1995, quando o Brasil reconheceu oficialmente a existência de formas contemporâneas de escravidão, a Inspeção do Trabalho resgatou 65.598 trabalhadores em 8.483 ações fiscais. Entre 2003 e 2024, mais de R$ 155 milhões em verbas trabalhistas e rescisórias foram pagos às vítimas.",
+      "paragraph3": "Os estados com maior número de trabalhadores resgatados em 2024 foram Minas Gerais (500), São Paulo (467), Bahia (198), Goiás (155) e Pernambuco (137). As áreas econômicas com maior incidência incluem construção de edifícios, cultivo de café, cultivo de cebola, serviço de preparação de terreno e horticultura.",
+      "paragraph4": "Um dado alarmante é o crescimento significativo no número de trabalhadores resgatados em áreas urbanas, que representaram 30% do total de trabalhadores em condições análogas à escravidão identificados em 2024, demonstrando que o problema não está restrito apenas às áreas rurais.",
+      "chartCaption1": "Fonte: Ministério da Economia/G1",
+      "chartCaption2": "Fonte: Repórter Brasil"
+    },
+    "sdg": {
+      "title": "Relação com os Objetivos de Desenvolvimento Sustentável da ONU",
+      "sdg8": {
+        "title": "ODS 8: Trabalho Decente e Crescimento Econômico",
+        "paragraph1": "O combate ao trabalho análogo à escravidão está diretamente relacionado ao ODS 8 da ONU, que visa \"promover o crescimento econômico sustentado, inclusivo e sustentável, emprego pleno e produtivo e trabalho decente para todas e todos\".",
+        "paragraph2": "Especificamente, a meta 8.7 estabelece: \"Tomar medidas imediatas e eficazes para erradicar o trabalho forçado, acabar com a escravidão moderna e o tráfico de pessoas, e assegurar a proibição e eliminação das piores formas de trabalho infantil, incluindo recrutamento e utilização de crianças-soldado, e até 2025 acabar com o trabalho infantil em todas as suas formas\"."
+      },
+      "sdg16": {
+        "title": "ODS 16: Paz, Justiça e Instituições Eficazes",
+        "paragraph1": "O ODS 16 busca \"promover sociedades pacíficas e inclusivas para o desenvolvimento sustentável, proporcionar o acesso à justiça para todos e construir instituições eficazes, responsáveis e inclusivas em todos os níveis\".",
+        "paragraph2": "O combate ao trabalho escravo contemporâneo exige instituições fortes e eficazes, acesso à justiça para as vítimas e mecanismos de denúncia seguros. A erradicação desta prática contribui diretamente para sociedades mais justas e pacíficas, onde os direitos humanos fundamentais são respeitados e as instituições trabalham para proteger os mais vulneráveis."
+      },
+      "chartCaption": "Fonte: Brasil de Fato"
+    }
+  },
+  "platform": {
+    "title": "A Plataforma Alerta Justiça",
+    "intro": "Alerta Justiça é mais que um site - é uma plataforma abrangente que combina tecnologia, conhecimento jurídico e acessibilidade linguística para combater o trabalho análogo à escravidão no Brasil.",
+    "tabs": {
+      "concept": "O Conceito",
+      "reporting": "Denúncia Anônima",
+      "education": "Recursos Educativos",
+      "data": "Painel de Dados"
+    },
+    "concept": {
+      "title": "Uma Abordagem Interdisciplinar",
+      "paragraph1": "A plataforma Alerta Justiça foi concebida como uma ponte entre trabalhadores vulneráveis, instituições jurídicas e a sociedade. Combinando expertise em Direito, Linguística e Engenharia, criamos uma ferramenta que aborda os desafios complexos da escravidão moderna.",
+      "paragraph2": "Nossa plataforma opera em três pilares fundamentais:",
+      "pillar1": "Informação e Educação: Tornando o conhecimento jurídico acessível a todos, independentemente do nível de alfabetização ou educação formal.",
+      "pillar2": "Denúncia Segura: Fornecendo canais seguros para denunciar situações de exploração trabalhista sem risco para as vítimas.",
+      "pillar3": "Transparência de Dados: Coletando, analisando e publicando dados sobre trabalho escravo para informar políticas públicas e aumentar a conscientização.",
+      "paragraph3": "Ao integrar essas três dimensões, o Alerta Justiça pretende ser um catalisador para mudanças sistêmicas na forma como o Brasil aborda e combate as formas contemporâneas de escravidão."
+    },
+    "reporting": {
+      "title": "Sistema de Denúncia Anônima e Segura",
+      "paragraph1": "Nosso sistema de denúncia foi projetado com a segurança e proteção dos denunciantes como prioridade máxima. Entendemos que o medo de retaliação é uma das principais barreiras que impedem vítimas e testemunhas de denunciar casos de trabalho escravo.",
+      "features": "Principais características do nosso sistema de denúncia:",
+      "feature1": "Anonimato completo: Nenhuma identificação pessoal é necessária para enviar uma denúncia.",
+      "feature2": "Criptografia de ponta a ponta: Todas as comunicações são protegidas usando protocolos avançados de criptografia.",
+      "feature3": "Tratamento seguro de dados: As denúncias são processadas seguindo protocolos rigorosos de segurança.",
+      "feature4": "Múltiplos canais de denúncia: Formulário web, aplicativo móvel e opções de SMS para diferentes contextos e necessidades.",
+      "paragraph2": "Uma vez enviada, a denúncia é revisada por nossa equipe especializada e encaminhada às autoridades competentes, como a Inspeção do Trabalho, o Ministério Público Federal ou a Polícia Federal, dependendo da natureza e urgência da situação.",
+      "paragraph3": "A plataforma também permite acompanhamento anônimo do status das denúncias, garantindo transparência durante todo o processo enquanto mantém a segurança do denunciante."
+    },
+    "education": {
+      "title": "Recursos Educativos",
+      "paragraph1": "A educação é uma ferramenta poderosa na prevenção e combate ao trabalho escravo. Nossa plataforma oferece um conjunto abrangente de recursos educativos projetados para diferentes públicos e contextos.",
+      "resources": "Os recursos disponíveis incluem:",
+      "resource1": "Guias em linguagem simples explicando direitos trabalhistas e como identificar situações de exploração.",
+      "resource2": "Materiais de treinamento para líderes comunitários, representantes sindicais e assistentes sociais.",
+      "resource3": "Módulos interativos sobre reconhecimento de sinais de trabalho escravo e tomada de ações apropriadas.",
+      "resource4": "Cartazes e folhetos para download e distribuição em comunidades vulneráveis.",
+      "paragraph2": "Todos os materiais educativos são desenvolvidos com contribuições de especialistas em direito, educação e linguística para garantir que sejam juridicamente precisos, pedagogicamente eficazes e linguisticamente acessíveis a públicos diversos, incluindo aqueles com alfabetização limitada.",
+      "paragraph3": "Estes recursos estão disponíveis gratuitamente para download, compartilhamento e uso em ambientes educacionais e comunitários."
+    },
+    "data": {
+      "title": "Painel de Dados",
+      "paragraph1": "Compreender os padrões e tendências do trabalho escravo é essencial para desenvolver estratégias eficazes para combatê-lo. Nosso painel de dados fornece visualizações interativas e atualizadas de indicadores-chave relacionados ao trabalho escravo no Brasil.",
+      "features": "O painel inclui:",
+      "feature1": "Distribuição geográfica de casos denunciados e resgates.",
+      "feature2": "Análise setorial mostrando quais indústrias têm a maior incidência de trabalho escravo.",
+      "feature3": "Dados demográficos sobre populações afetadas.",
+      "feature4": "Tendências temporais mostrando o progresso no combate ao trabalho escravo ao longo do tempo.",
+      "paragraph2": "Todos os dados são provenientes de registros oficiais do governo, pesquisas acadêmicas e relatórios verificados de organizações parceiras. O painel é atualizado regularmente para refletir as informações mais atuais disponíveis.",
+      "paragraph3": "Pesquisadores, jornalistas, formuladores de políticas e o público em geral podem usar esta ferramenta para entender melhor a realidade do trabalho escravo no Brasil e para informar intervenções baseadas em evidências."
+    },
+    "cta": {
+      "title": "Junte-se à Luta Contra o Trabalho Escravo",
+      "text": "Seja você um cidadão preocupado, uma potencial vítima, uma testemunha de exploração ou um profissional que trabalha em áreas relacionadas, a plataforma Alerta Justiça oferece recursos e ferramentas para ajudá-lo a agir.",
+      "button": "Explore a Plataforma"
+    }
+  },
+  "interdisciplinarity": {
+    "title": "Interdisciplinaridade: O Poder da Integração",
+    "intro": "O combate ao trabalho análogo à escravidão requer uma abordagem multifacetada que combine diferentes campos do conhecimento. No Alerta Justiça, integramos Direito, Linguística e Tecnologia para criar soluções eficazes.",
+    "areas": {
+      "law": {
+        "title": "Direito",
+        "description": "A expertise jurídica é essencial para compreender o arcabouço normativo que define e combate o trabalho escravo. Nossa equipe jurídica analisa legislação, jurisprudência e tratados internacionais para garantir que nossa plataforma seja juridicamente sólida e eficaz.",
+        "contributions": "Contribuições do campo jurídico:",
+        "contribution1": "Interpretação precisa das leis trabalhistas e penais relacionadas ao trabalho escravo",
+        "contribution2": "Desenvolvimento de estratégias legais para proteção das vítimas e acesso à justiça",
+        "contribution3": "Análise de lacunas legais e propostas de melhorias legislativas",
+        "contribution4": "Orientação jurídica para vítimas e denunciantes"
+      },
+      "linguistics": {
+        "title": "Linguística",
+        "description": "A linguagem é uma poderosa ferramenta de inclusão ou exclusão. Nossa equipe de linguística trabalha para garantir que as informações jurídicas sejam acessíveis a todos, independentemente de sua formação educacional ou nível de alfabetização.",
+        "contributions": "Contribuições do campo da linguística:",
+        "contribution1": "Adaptação em linguagem simples de textos e procedimentos jurídicos",
+        "contribution2": "Desenvolvimento de recursos multilíngues para trabalhadores migrantes",
+        "contribution3": "Análise de padrões discursivos em depoimentos de vítimas para melhorar sistemas de denúncia",
+        "contribution4": "Criação de materiais educativos acessíveis para públicos diversos"
+      },
+      "technology": {
+        "title": "Tecnologia",
+        "description": "A tecnologia amplifica nosso alcance e eficácia. Nossa equipe de tecnologia desenvolve soluções digitais que facilitam a denúncia, análise de dados e disseminação de informações.",
+        "contributions": "Contribuições do campo tecnológico:",
+        "contribution1": "Sistemas seguros e anônimos de denúncia",
+        "contribution2": "Ferramentas de visualização de dados para compreender padrões de trabalho escravo",
+        "contribution3": "Aplicativos móveis para trabalhadores de campo e populações vulneráveis",
+        "contribution4": "Algoritmos de aprendizado de máquina para identificar áreas de risco e casos potenciais"
+      }
+    },
+    "integration": {
+      "title": "Integração na Prática",
+      "paragraph1": "O verdadeiro poder de nossa abordagem está na integração desses três campos. Quando Direito, Linguística e Tecnologia trabalham juntos, criam soluções que são juridicamente sólidas, acessíveis a todos e tecnologicamente eficientes.",
+      "examples": "Exemplos de integração interdisciplinar:",
+      "example1": {
+        "title": "Guia Jurídico em Linguagem Simples",
+        "description": "Nossa equipe jurídica identifica conceitos legais fundamentais, a equipe de linguística os traduz para linguagem simples, e a equipe de tecnologia cria uma plataforma digital interativa para tornar essas informações amplamente acessíveis."
+      },
+      "example2": {
+        "title": "Sistema Seguro de Denúncia",
+        "description": "A equipe jurídica define as informações necessárias para uma denúncia válida, a equipe de linguística garante que as perguntas sejam claras e acessíveis, e a equipe de tecnologia implementa um sistema digital de denúncia seguro e anônimo."
+      },
+      "example3": {
+        "title": "Advocacy Baseada em Dados",
+        "description": "A equipe de tecnologia coleta e analisa dados sobre casos de trabalho escravo, a equipe jurídica interpreta esses dados à luz da legislação atual, e a equipe de linguística ajuda a comunicar as descobertas aos formuladores de políticas e ao público em linguagem clara e persuasiva."
+      }
+    },
+    "research": {
+      "title": "Pesquisa e Inovação",
+      "paragraph1": "Nossa abordagem interdisciplinar não é estática—ela evolui através de pesquisa e inovação contínuas. Colaboramos com universidades, centros de pesquisa e organizações internacionais para desenvolver novas metodologias e ferramentas para combater o trabalho escravo.",
+      "paragraph2": "Projetos de pesquisa atuais incluem:",
+      "project1": "Desenvolvimento de ferramentas de IA para identificar casos potenciais de trabalho escravo em cadeias de suprimentos",
+      "project2": "Análise linguística de decisões judiciais para identificar padrões que favorecem ou dificultam a proteção das vítimas",
+      "project3": "Estudo comparativo de melhores práticas internacionais no combate à escravidão moderna",
+      "paragraph3": "Por meio dessas iniciativas de pesquisa, buscamos melhorar continuamente nossa compreensão do problema e nossa capacidade de abordá-lo de forma eficaz."
+    },
+    "collaboration": {
+      "title": "Junte-se à Nossa Rede Colaborativa",
+      "paragraph1": "Acreditamos no poder da colaboração. Se você é um profissional em direito, linguística, tecnologia ou qualquer campo relacionado, convidamos você a se juntar à nossa rede de colaboradores.",
+      "paragraph2": "Juntos, podemos desenvolver soluções inovadoras para combater o trabalho análogo à escravidão e promover dignidade e justiça para todos os trabalhadores.",
+      "button": "Torne-se um Colaborador"
+    }
+  },
+  "report": {
+    "title": "Denuncie Trabalho Escravo",
+    "introduction": "Este formulário permite que você denuncie situações de trabalho análogo à escravidão de forma segura e anônima. Sua denúncia ajudará as autoridades a identificar e combater a exploração, potencialmente salvando vidas e restaurando a dignidade das vítimas.",
+    "privacyNote": "Sua privacidade e segurança são nossas principais prioridades. Todas as denúncias são criptografadas e tratadas com protocolos rigorosos de confidencialidade.",
+    "form": {
+      "header": "Formulário de Denúncia Anônima",
+      "securityNotice": "Este é um formulário seguro. Nenhum endereço IP ou identificador pessoal é coletado.",
+      "reportType": {
+        "label": "Tipo de Situação",
+        "placeholder": "Selecione o tipo de situação que deseja denunciar",
+        "options": {
+          "forcedLabor": "Trabalho Forçado",
+          "degradingConditions": "Condições Degradantes de Trabalho",
+          "debtBondage": "Servidão por Dívida",
+          "humanTrafficking": "Tráfico de Pessoas para Exploração Laboral",
+          "other": "Outra Situação"
+        }
+      },
+      "location": {
+        "label": "Local do Incidente",
+        "state": "Estado",
+        "statePlaceholder": "Selecione um estado",
+        "city": "Cidade",
+        "cityPlaceholder": "Digite o nome da cidade",
+        "address": "Endereço ou Referência",
+        "addressPlaceholder": "Digite detalhes do endereço ou pontos de referência",
+        "addressHelp": "Inclua qualquer detalhe que possa ajudar a localizar o lugar (ex: 'fazenda próxima ao rio', 'obra ao lado do posto de gasolina')"
+      },
+      "description": {
+        "label": "Descrição da Situação",
+        "placeholder": "Descreva a situação em detalhes. Inclua informações sobre condições de trabalho, problemas de pagamento, ameaças, restrições ou quaisquer outros detalhes relevantes.",
+        "help": "Quanto mais detalhes você fornecer, melhor as autoridades poderão avaliar e responder à situação."
+      },
+      "workersCount": {
+        "label": "Número Aproximado de Trabalhadores Afetados",
+        "placeholder": "Selecione uma faixa aproximada",
+        "moreThan50": "Mais de 50",
+        "unknown": "Desconhecido/Não tenho certeza"
+      },
+      "contact": {
+        "title": "Informações de Contato (Opcional)",
+        "description": "Fornecer informações de contato é completamente opcional. Se você optar por fazê-lo, isso pode ajudar as autoridades a dar seguimento à sua denúncia, se necessário.",
+        "email": "E-mail",
+        "emailPlaceholder": "Digite seu e-mail (opcional)",
+        "phone": "Telefone",
+        "phonePlaceholder": "Digite seu número de telefone (opcional)"
+      },
+      "terms": "Confirmo que as informações fornecidas são verdadeiras de acordo com meu conhecimento, e entendo que denúncias falsas podem prejudicar o trabalho das autoridades.",
+      "submit": "Enviar Denúncia com Segurança",
+      "disclaimer": "Após o envio, você receberá um código único de acompanhamento para verificar o status da sua denúncia anonimamente."
+    },
+    "additionalInfo": {
+      "title": "Outras Formas de Denunciar",
+      "description": "Se você preferir não usar este formulário online, existem outros canais seguros disponíveis para denunciar situações de trabalho análogo à escravidão:",
+      "phone": {
+        "title": "Disque-Denúncia SIT",
+        "description": "A Secretaria de Inspeção do Trabalho (SIT) mantém um canal telefônico dedicado para denúncias de violações trabalhistas:",
+        "number": "100 (ligação gratuita)"
+      },
+      "email": {
+        "title": "Denúncia por E-mail",
+        "description": "Você também pode enviar denúncias por e-mail para o Ministério do Trabalho e Emprego:",
+        "address": "denuncias@mte.gov.br"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "Alerta Justiça - Todos os direitos reservados"
+  },
+  "languageSwitcher": {
+    "english": "Inglês",
+    "portuguese": "Português"
+  }
+}
