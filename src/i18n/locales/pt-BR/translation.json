@@ -222,7 +222,49 @@
       },
       "terms": "Confirmo que as informações fornecidas são verdadeiras de acordo com meu conhecimento, e entendo que denúncias falsas podem prejudicar o trabalho das autoridades.",
       "submit": "Enviar Denúncia com Segurança",
-      "disclaimer": "Após o envio, você receberá um código único de acompanhamento para verificar o status da sua denúncia anonimamente."
+      "submitting": "Enviando...",
+      "disclaimer": "Após o envio, você receberá um código único de acompanhamento para verificar o status da sua denúncia anonimamente.",
+      "validation": {
+        "reportTypeRequired": "Por favor, selecione o tipo de denúncia.",
+        "stateRequired": "Por favor, selecione o estado.",
+        "cityRequired": "Por favor, informe a cidade.",
+        "descriptionRequired": "Por favor, forneça uma descrição detalhada (mínimo 20 caracteres).",
+        "termsRequired": "Você deve aceitar os termos para continuar."
+      }
+    },
+    "success": {
+      "title": "Denúncia Enviada com Sucesso!",
+      "message": "Sua denúncia foi recebida e será analisada por nossa equipe. Mantenha o código de acompanhamento para futuras consultas.",
+      "trackingCode": "Código de Acompanhamento",
+      "close": "Fechar"
+    },
+    "security": {
+      "encrypted": "Criptografado",
+      "anonymous": "Anônimo",
+      "secure": "Seguro"
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "q1": {
+        "question": "Minha denúncia é realmente anônima?",
+        "answer": "Sim, sua denúncia é completamente anônima. Não coletamos endereços IP, não exigimos identificação pessoal e todas as informações são criptografadas. Você pode opcionalmente fornecer informações de contato, mas isso não é obrigatório."
+      },
+      "q2": {
+        "question": "O que acontece depois que eu envio uma denúncia?",
+        "answer": "Sua denúncia é analisada por nossa equipe e, se procedente, é encaminhada às autoridades competentes (Ministério do Trabalho, Ministério Público do Trabalho, Polícia Federal). Você receberá um código de acompanhamento para verificar o status."
+      },
+      "q3": {
+        "question": "Posso denunciar mesmo sem ter certeza se é trabalho escravo?",
+        "answer": "Sim, você pode denunciar situações suspeitas. Nossa equipe e as autoridades competentes farão a avaliação adequada. É melhor denunciar uma situação duvidosa do que deixar passar uma situação real de exploração."
+      },
+      "q4": {
+        "question": "Preciso ter provas para fazer uma denúncia?",
+        "answer": "Não é necessário ter provas formais. Sua denúncia baseada em observações, relatos ou suspeitas já é valiosa. As autoridades competentes farão a investigação necessária para verificar a situação."
+      },
+      "q5": {
+        "question": "Posso ser processado por fazer uma denúncia falsa?",
+        "answer": "Denúncias feitas de boa-fé, mesmo que posteriormente se mostrem improcedentes, não geram responsabilidade legal. Apenas denúncias sabidamente falsas, feitas com má-fé, podem gerar consequências legais."
+      }
     },
     "additionalInfo": {
       "title": "Outras Formas de Denunciar",

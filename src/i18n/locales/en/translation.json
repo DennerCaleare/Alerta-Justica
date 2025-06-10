@@ -222,7 +222,49 @@
       },
       "terms": "I confirm that the information provided is true to the best of my knowledge, and I understand that false reports may hinder the work of authorities.",
       "submit": "Submit Report Securely",
-      "disclaimer": "After submission, you will receive a unique tracking code to check the status of your report anonymously."
+      "submitting": "Submitting...",
+      "disclaimer": "After submission, you will receive a unique tracking code to check the status of your report anonymously.",
+      "validation": {
+        "reportTypeRequired": "Please select the type of report.",
+        "stateRequired": "Please select a state.",
+        "cityRequired": "Please enter the city.",
+        "descriptionRequired": "Please provide a detailed description (minimum 20 characters).",
+        "termsRequired": "You must accept the terms to continue."
+      }
+    },
+    "success": {
+      "title": "Report Submitted Successfully!",
+      "message": "Your report has been received and will be analyzed by our team. Keep the tracking code for future reference.",
+      "trackingCode": "Tracking Code",
+      "close": "Close"
+    },
+    "security": {
+      "encrypted": "Encrypted",
+      "anonymous": "Anonymous",
+      "secure": "Secure"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "Is my report really anonymous?",
+        "answer": "Yes, your report is completely anonymous. We do not collect IP addresses, require personal identification, and all information is encrypted. You can optionally provide contact information, but this is not mandatory."
+      },
+      "q2": {
+        "question": "What happens after I submit a report?",
+        "answer": "Your report is analyzed by our team and, if valid, is forwarded to the competent authorities (Ministry of Labor, Public Ministry of Labor, Federal Police). You will receive a tracking code to check the status."
+      },
+      "q3": {
+        "question": "Can I report even if I'm not sure it's slave labor?",
+        "answer": "Yes, you can report suspicious situations. Our team and the competent authorities will make the appropriate assessment. It's better to report a doubtful situation than to let a real exploitation situation pass."
+      },
+      "q4": {
+        "question": "Do I need to have evidence to make a report?",
+        "answer": "Formal evidence is not necessary. Your report based on observations, accounts, or suspicions is already valuable. The competent authorities will conduct the necessary investigation to verify the situation."
+      },
+      "q5": {
+        "question": "Can I be prosecuted for making a false report?",
+        "answer": "Reports made in good faith, even if later proven unfounded, do not generate legal liability. Only knowingly false reports, made in bad faith, can have legal consequences."
+      }
     },
     "additionalInfo": {
       "title": "Other Ways to Report",
