@@ -5,7 +5,8 @@
     "platform": "The Platform",
     "interdisciplinarity": "Interdisciplinarity",
     "report": "Report",
-    "resources": "Resources"
+    "resources": "Resources",
+    "contact": "Contact"
   },
   "hero": {
     "slogan": "Technology, Law and Language in the fight against slave labor.",
@@ -279,6 +280,136 @@
         "description": "You can also send reports via email to the Ministry of Labor and Employment:",
         "address": "denuncias@mte.gov.br"
       }
+    }
+  },
+  "resources": {
+    "title": "Resources and Materials",
+    "intro": "Access a comprehensive collection of educational resources, practical tools, and essential information to understand, identify, and combat labor analogous to slavery.",
+    "educational": {
+      "title": "Educational Materials",
+      "description": "Resources developed for different audiences, from workers to employers and civil society.",
+      "item1": "Simple language booklets on labor rights",
+      "item2": "Educational videos on identifying slave labor",
+      "item3": "Guides for employers on ethical labor practices",
+      "item4": "Materials for educators and social multipliers",
+      "button": "Access Materials"
+    },
+    "links": {
+      "title": "Useful Links",
+      "description": "Organizations and institutions working to combat labor analogous to slavery.",
+      "visit": "Visit website",
+      "mte": {
+        "title": "Ministry of Labor and Employment",
+        "description": "Agency responsible for inspection and combating slave labor in Brazil."
+      },
+      "mpt": {
+        "title": "Public Ministry of Labor",
+        "description": "Institution that acts in defense of labor rights and combating exploitation."
+      },
+      "oit": {
+        "title": "International Labour Organization",
+        "description": "UN agency dedicated to promoting decent work worldwide."
+      },
+      "reporterBrasil": {
+        "title": "Repórter Brasil",
+        "description": "Organization that monitors and reports cases of slave labor in the country."
+      }
+    },
+    "legislation": {
+      "title": "Legal Framework",
+      "description": "Main laws and regulations governing the fight against labor analogous to slavery.",
+      "article149": {
+        "title": "Article 149 of the Penal Code",
+        "description": "Defines the crime of reduction to a condition analogous to slavery."
+      },
+      "clt": {
+        "title": "Consolidation of Labor Laws (CLT)",
+        "description": "Establishes rights and duties in labor relations."
+      },
+      "constitution": {
+        "title": "Federal Constitution of 1988",
+        "description": "Guarantees fundamental rights and human dignity."
+      },
+      "international": {
+        "title": "ILO International Conventions",
+        "description": "International treaties on forced labor and slavery."
+      }
+    },
+    "tools": {
+      "title": "Tools and Apps",
+      "description": "Digital applications and tools for reporting and prevention.",
+      "app1": {
+        "title": "Dial 100",
+        "description": "National channel for reporting human rights violations."
+      },
+      "app2": {
+        "title": "Data Dashboard",
+        "description": "Visualization of statistics on slave labor in Brazil."
+      },
+      "app3": {
+        "title": "Digital Library",
+        "description": "Collection of documents and research on the topic."
+      },
+      "app4": {
+        "title": "Case Map",
+        "description": "Geographic location of identified and rescued cases."
+      }
+    },
+    "cta": {
+      "title": "Need Help or Want to Contribute?",
+      "description": "If you are a victim, witness, or want to get involved in the fight against slave labor, we are here to help.",
+      "button1": "Make a Report",
+      "button2": "Contact Us"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "intro": "We are here to help, answer questions, receive suggestions, and establish partnerships. Contact us through the channels below.",
+    "form": {
+      "title": "Send a Message",
+      "type": {
+        "label": "Contact Type",
+        "placeholder": "Select contact type",
+        "options": {
+          "general": "General Information",
+          "partnership": "Partnerships and Collaborations",
+          "media": "Press and Media",
+          "research": "Academic Research",
+          "support": "Technical Support"
+        }
+      },
+      "name": "Full Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "sending": "Sending..."
+    },
+    "success": {
+      "title": "Message Sent!",
+      "message": "Your message has been received successfully. Our team will contact you soon.",
+      "close": "Close"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "title": "Email",
+        "description": "For general inquiries, partnerships and collaborations:"
+      },
+      "phone": {
+        "title": "Phone",
+        "description": "Service Monday to Friday, 9am to 6pm:"
+      },
+      "address": {
+        "title": "Address",
+        "description": "Our main office:",
+        "line1": "Justice Street, 123 - Downtown",
+        "line2": "São Paulo, SP - ZIP 01234-567"
+      }
+    },
+    "social": {
+      "title": "Social Media",
+      "description": "Follow our work and stay updated with the latest news:"
     }
   },
   "footer": {

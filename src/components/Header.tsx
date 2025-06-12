@@ -28,6 +28,7 @@ const Header: React.FC = () => {
               <li><a href="#interdisciplinaridade" className="hover:text-blue-300 transition-colors">{t('header.interdisciplinarity')}</a></li>
               <li><a href="#denuncie" className="hover:text-blue-300 transition-colors">{t('header.report')}</a></li>
               <li><a href="#recursos" className="hover:text-blue-300 transition-colors">{t('header.resources')}</a></li>
+              <li><a href="#contato" className="hover:text-blue-300 transition-colors">{t('header.contact')}</a></li>
             </ul>
           </nav>
           <LanguageSwitcher />

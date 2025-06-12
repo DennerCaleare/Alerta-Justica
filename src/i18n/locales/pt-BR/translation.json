@@ -5,7 +5,8 @@
     "platform": "A Plataforma",
     "interdisciplinarity": "Interdisciplinaridade",
     "report": "Denuncie",
-    "resources": "Recursos"
+    "resources": "Recursos",
+    "contact": "Contato"
   },
   "hero": {
     "slogan": "Tecnologia, Direito e Linguagem na luta contra o trabalho escravo.",
@@ -279,6 +280,136 @@
         "description": "Você também pode enviar denúncias por e-mail para o Ministério do Trabalho e Emprego:",
         "address": "denuncias@mte.gov.br"
       }
+    }
+  },
+  "resources": {
+    "title": "Recursos e Materiais",
+    "intro": "Acesse uma coleção abrangente de recursos educativos, ferramentas práticas e informações essenciais para entender, identificar e combater o trabalho análogo à escravidão.",
+    "educational": {
+      "title": "Materiais Educativos",
+      "description": "Recursos desenvolvidos para diferentes públicos, desde trabalhadores até empregadores e sociedade civil.",
+      "item1": "Cartilhas em linguagem simples sobre direitos trabalhistas",
+      "item2": "Vídeos educativos sobre identificação de trabalho escravo",
+      "item3": "Guias para empregadores sobre práticas trabalhistas éticas",
+      "item4": "Materiais para educadores e multiplicadores sociais",
+      "button": "Acessar Materiais"
+    },
+    "links": {
+      "title": "Links Úteis",
+      "description": "Organizações e instituições que trabalham no combate ao trabalho análogo à escravidão.",
+      "visit": "Visitar site",
+      "mte": {
+        "title": "Ministério do Trabalho e Emprego",
+        "description": "Órgão responsável pela fiscalização e combate ao trabalho escravo no Brasil."
+      },
+      "mpt": {
+        "title": "Ministério Público do Trabalho",
+        "description": "Instituição que atua na defesa dos direitos trabalhistas e combate à exploração."
+      },
+      "oit": {
+        "title": "Organização Internacional do Trabalho",
+        "description": "Agência da ONU dedicada à promoção do trabalho decente em todo o mundo."
+      },
+      "reporterBrasil": {
+        "title": "Repórter Brasil",
+        "description": "Organização que monitora e denuncia casos de trabalho escravo no país."
+      }
+    },
+    "legislation": {
+      "title": "Marco Legal",
+      "description": "Principais leis e normas que regulamentam o combate ao trabalho análogo à escravidão.",
+      "article149": {
+        "title": "Artigo 149 do Código Penal",
+        "description": "Define o crime de redução à condição análoga à de escravo."
+      },
+      "clt": {
+        "title": "Consolidação das Leis do Trabalho (CLT)",
+        "description": "Estabelece direitos e deveres nas relações de trabalho."
+      },
+      "constitution": {
+        "title": "Constituição Federal de 1988",
+        "description": "Garante direitos fundamentais e dignidade da pessoa humana."
+      },
+      "international": {
+        "title": "Convenções Internacionais da OIT",
+        "description": "Tratados internacionais sobre trabalho forçado e escravidão."
+      }
+    },
+    "tools": {
+      "title": "Ferramentas e Apps",
+      "description": "Aplicativos e ferramentas digitais para denúncia e prevenção.",
+      "app1": {
+        "title": "Disque 100",
+        "description": "Canal nacional de denúncia de violações de direitos humanos."
+      },
+      "app2": {
+        "title": "Painel de Dados",
+        "description": "Visualização de estatísticas sobre trabalho escravo no Brasil."
+      },
+      "app3": {
+        "title": "Biblioteca Digital",
+        "description": "Acervo de documentos e pesquisas sobre o tema."
+      },
+      "app4": {
+        "title": "Mapa de Casos",
+        "description": "Localização geográfica de casos identificados e resgatados."
+      }
+    },
+    "cta": {
+      "title": "Precisa de Ajuda ou Quer Contribuir?",
+      "description": "Se você é vítima, testemunha ou quer se envolver na luta contra o trabalho escravo, estamos aqui para ajudar.",
+      "button1": "Fazer Denúncia",
+      "button2": "Entrar em Contato"
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "intro": "Estamos aqui para ajudar, esclarecer dúvidas, receber sugestões e estabelecer parcerias. Entre em contato conosco através dos canais abaixo.",
+    "form": {
+      "title": "Envie uma Mensagem",
+      "type": {
+        "label": "Tipo de Contato",
+        "placeholder": "Selecione o tipo de contato",
+        "options": {
+          "general": "Informações Gerais",
+          "partnership": "Parcerias e Colaborações",
+          "media": "Imprensa e Mídia",
+          "research": "Pesquisa Acadêmica",
+          "support": "Suporte Técnico"
+        }
+      },
+      "name": "Nome Completo",
+      "email": "E-mail",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "submit": "Enviar Mensagem",
+      "sending": "Enviando..."
+    },
+    "success": {
+      "title": "Mensagem Enviada!",
+      "message": "Sua mensagem foi recebida com sucesso. Nossa equipe entrará em contato em breve.",
+      "close": "Fechar"
+    },
+    "info": {
+      "title": "Informações de Contato",
+      "email": {
+        "title": "E-mail",
+        "description": "Para dúvidas gerais, parcerias e colaborações:"
+      },
+      "phone": {
+        "title": "Telefone",
+        "description": "Atendimento de segunda a sexta, das 9h às 18h:"
+      },
+      "address": {
+        "title": "Endereço",
+        "description": "Nosso escritório principal:",
+        "line1": "Rua da Justiça, 123 - Centro",
+        "line2": "São Paulo, SP - CEP 01234-567"
+      }
+    },
+    "social": {
+      "title": "Redes Sociais",
+      "description": "Acompanhe nosso trabalho e fique por dentro das novidades:"
     }
   },
   "footer": {
