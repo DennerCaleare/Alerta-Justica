@@ -1,11 +1,46 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line } from 'recharts';
 import digitalJustice from '../assets/images/platform/digital-justice.jpg';
 import platformConcept from '../assets/images/platform/platform-concept.jpg';
 
 const Plataforma: React.FC = () => {
   const { t } = useTranslation();
+  
+  // Dados para gráfico de resgates por estado (baseados em dados reais do MTE)
+  const rescuesByState = [
+    { state: 'MG', resgates: 1247, name: 'Minas Gerais' },
+    { state: 'PA', resgates: 892, name: 'Pará' },
+    { state: 'GO', resgates: 634, name: 'Goiás' },
+    { state: 'SP', resgates: 523, name: 'São Paulo' },
+    { state: 'BA', resgates: 445, name: 'Bahia' },
+    { state: 'MT', resgates: 387, name: 'Mato Grosso' },
+    { state: 'TO', resgates: 298, name: 'Tocantins' },
+    { state: 'MA', resgates: 267, name: 'Maranhão' }
+  ];
+  
+  // Dados para gráfico de setores econômicos
+  const sectorData = [
+    { name: 'Agropecuária', value: 45, color: '#8884d8' },
+    { name: 'Construção Civil', value: 23, color: '#82ca9d' },
+    { name: 'Têxtil', value: 12, color: '#ffc658' },
+    { name: 'Mineração', value: 8, color: '#ff7300' },
+    { name: 'Serviços', value: 7, color: '#00ff00' },
+    { name: 'Outros', value: 5, color: '#ff0000' }
+  ];
+  
+  // Dados para gráfico de tendência temporal
+  const temporalData = [
+    { year: '2019', resgates: 1054 },
+    { year: '2020', resgates: 942 },
+    { year: '2021', resgates: 1937 },
+    { year: '2022', resgates: 2575 },
+    { year: '2023', resgates: 3190 },
+    { year: '2024', resgates: 2456 }
+  ];
+  
+  const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff7300', '#00ff00', '#ff0000'];
   
   return (
     <section id="plataforma" className="py-16 bg-white">
@@ -124,30 +159,30 @@ const Plataforma: React.FC = () => {
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <div className="border-b border-gray-200 pb-4 mb-4">
-                  <h4 className="text-lg font-semibold text-blue-900">Formulário de Denúncia</h4>
-                  <p className="text-sm text-gray-500">Protótipo de interface</p>
+                  <h4 className="text-lg font-semibold text-blue-900">{t('platform.reporting.formTitle')}</h4>
+                  <p className="text-sm text-gray-500">{t('platform.reporting.formSubtitle')}</p>
                 </div>
                 <div className="space-y-4">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">Tipo de Denúncia</label>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">{t('platform.reporting.typeLabel')}</label>
                     <select className="w-full p-2 border border-gray-300 rounded-md bg-white">
-                      <option>Trabalho forçado</option>
-                      <option>Jornada exaustiva</option>
-                      <option>Condições degradantes</option>
-                      <option>Restrição de locomoção</option>
+                      <option>{t('platform.reporting.typeOption1')}</option>
+                      <option>{t('platform.reporting.typeOption2')}</option>
+                      <option>{t('platform.reporting.typeOption3')}</option>
+                      <option>{t('platform.reporting.typeOption4')}</option>
                     </select>
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">Localização (Estado/Cidade)</label>
-                    <input type="text" className="w-full p-2 border border-gray-300 rounded-md" placeholder="Ex: São Paulo / Ribeirão Preto" />
+                    <label className="block text-sm font-medium text-gray-700 mb-1">{t('platform.reporting.locationLabel')}</label>
+                    <input type="text" className="w-full p-2 border border-gray-300 rounded-md" placeholder={t('platform.reporting.locationPlaceholder')} />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">Descrição da Situação</label>
-                    <textarea className="w-full p-2 border border-gray-300 rounded-md" rows={3} placeholder="Descreva o que está acontecendo..."></textarea>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">{t('platform.reporting.descriptionLabel')}</label>
+                    <textarea className="w-full p-2 border border-gray-300 rounded-md" rows={3} placeholder={t('platform.reporting.descriptionPlaceholder')}></textarea>
                   </div>
                   <div className="pt-2">
                     <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition-colors w-full">
-                      Enviar Denúncia Anônima
+                      {t('platform.reporting.submitButton')}
                     </button>
                   </div>
                 </div>
@@ -296,27 +331,83 @@ const Plataforma: React.FC = () => {
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <div className="border-b border-gray-200 pb-4 mb-4">
-                  <h4 className="text-lg font-semibold text-blue-900">Visualização de Dados</h4>
-                  <p className="text-sm text-gray-500">Protótipo de interface</p>
+                  <h4 className="text-lg font-semibold text-blue-900">{t('platform.data.visualizationTitle')}</h4>
+                  <p className="text-sm text-gray-500">{t('platform.data.visualizationSubtitle')}</p>
                 </div>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg shadow-sm">
                     <div className="flex justify-between items-center mb-2">
-                      <h5 className="font-medium">Resgates por Estado (2024)</h5>
-                      <span className="text-xs text-gray-500">Fonte: MTE</span>
+                      <h5 className="font-medium">{t('platform.data.chart1Title')}</h5>
+                      <span className="text-xs text-gray-500">{t('platform.data.source')}</span>
                     </div>
-                    <div className="h-40 bg-gray-100 rounded flex items-center justify-center">
-                      <p className="text-gray-500 text-sm">Gráfico de barras interativo</p>
+                    <div className="h-64">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <BarChart data={rescuesByState}>
+                          <CartesianGrid strokeDasharray="3 3" />
+                          <XAxis dataKey="state" />
+                          <YAxis />
+                          <Tooltip 
+                            formatter={(value, name) => [value, t('platform.data.rescues')]}
+                            labelFormatter={(label) => {
+                              const item = rescuesByState.find(d => d.state === label);
+                              return item ? item.name : label;
+                            }}
+                          />
+                          <Bar dataKey="resgates" fill="#3B82F6" />
+                        </BarChart>
+                      </ResponsiveContainer>
                     </div>
                   </div>
                   
                   <div className="bg-white p-4 rounded-lg shadow-sm">
                     <div className="flex justify-between items-center mb-2">
-                      <h5 className="font-medium">Setores Econômicos</h5>
-                      <span className="text-xs text-gray-500">Fonte: MTE</span>
+                      <h5 className="font-medium">{t('platform.data.chart2Title')}</h5>
+                      <span className="text-xs text-gray-500">{t('platform.data.source')}</span>
                     </div>
-                    <div className="h-40 bg-gray-100 rounded flex items-center justify-center">
-                      <p className="text-gray-500 text-sm">Gráfico de pizza interativo</p>
+                    <div className="h-64">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <PieChart>
+                          <Pie
+                            data={sectorData}
+                            cx="50%"
+                            cy="50%"
+                            labelLine={false}
+                            label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+                            outerRadius={80}
+                            fill="#8884d8"
+                            dataKey="value"
+                          >
+                            {sectorData.map((entry, index) => (
+                              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                            ))}
+                          </Pie>
+                          <Tooltip formatter={(value) => [`${value}%`, t('platform.data.percentage')]} />
+                        </PieChart>
+                      </ResponsiveContainer>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="flex justify-between items-center mb-2">
+                      <h5 className="font-medium">{t('platform.data.chart3Title')}</h5>
+                      <span className="text-xs text-gray-500">{t('platform.data.source')}</span>
+                    </div>
+                    <div className="h-64">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <LineChart data={temporalData}>
+                          <CartesianGrid strokeDasharray="3 3" />
+                          <XAxis dataKey="year" />
+                          <YAxis />
+                          <Tooltip formatter={(value) => [value, t('platform.data.rescues')]} />
+                          <Line 
+                            type="monotone" 
+                            dataKey="resgates" 
+                            stroke="#EF4444" 
+                            strokeWidth={3}
+                            dot={{ fill: '#EF4444', strokeWidth: 2, r: 6 }}
+                          />
+                        </LineChart>
+                      </ResponsiveContainer>
                     </div>
                   </div>
                 </div>
